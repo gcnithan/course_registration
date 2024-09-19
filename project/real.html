@@ -34,7 +34,7 @@
             <input type="text" id="name" name="name" required><br><br>
 
             <label for="usn">USN </label><br>
-            <input type="text" id="usn" name="usn" required><br><br>
+            <input type="text" id="usn" name="usn" pattern="[A-Za-z0-9]{10}"   maxlength="10" minlength="10" title="USN must exactly 10 alpha numeric characters" required><br><br>
 
             <label for="semester">Semester </label><br>
             <select id="semester" name="semester" required>
@@ -50,7 +50,7 @@
             </select><br><br>
 
             <label for="contact">Contact No. </label><br>
-            <input type="tel" id="contact" name="contact" required><br><br>
+            <input type="tel" id="contact" name="contact" pattern="\d{10}" title="please enter valid 10 digits contact no." required><br><br>
 
             <label for="email">E-mail Id </label><br>
             <input type="email" id="email" name="email" required><br><br>
