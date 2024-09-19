@@ -58,8 +58,16 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="file"],
-select,
 textarea {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+select{
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -68,7 +76,6 @@ textarea {
     font-size: 1em;
     transition: border-color 0.3s ease;
 }
-
 /* Hover and focus effects */
 input[type="text"]:hover,
 input[type="email"]:hover,
